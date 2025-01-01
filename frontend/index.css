@@ -1,0 +1,126 @@
+*{
+    font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+    }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+.container{
+    display: flex;
+    align-items: center;
+  
+    width: 500px;
+}
+.side-thing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(89, 178, 212);
+    height: 350px;
+    padding: 10px 10px;
+    font-size: 11px;
+    width: 150px;
+}
+.side-thing img{
+    width: 250px;
+    height: 200px;
+    border-radius: 150px;
+}
+.side-text{
+    padding-top:20px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    height: 350px;
+    width: 300px;
+  
+    padding: 10px 10px;
+
+}
+
+#form input{
+
+    border: none;
+   
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    padding:10px 10px 10px 10px ;
+    background-color: aliceblue;
+    margin: 5px;
+    height: 25px;
+    border-radius: 10px;
+}
+.input-container i{
+    opacity: 40%;
+}
+#login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding : 20px;
+}
+
+
+#email{
+    padding: 10px;
+   background-color: transparent;
+    border-radius: 5px;
+   
+}
+#password{
+    padding: 10px;
+    background-color:transparent;
+}
+
+#login{
+    padding: 10px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,160,187,1) 0%, rgba(0,188,219,0.90) 90% );
+    border-radius: 5px;
+    width:170px;
+}
+input{
+    outline: none;
+}
+
+.links{
+  width: 200px;
+    text-align: right;
+    background-color: tr;
+    border-radius: 5px;
+    
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(58, 166, 185);
+    font-size: 12px;
+}
+.image-icon img{
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    opacity: 60%;
+   
+}
+.signup-link a{
+    text-decoration: none;
+    color: rgb(58, 166, 185) ;
+   
+}
+.signup-link{
+    font-size:11px;
+}
